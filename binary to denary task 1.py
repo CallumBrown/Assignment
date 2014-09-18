@@ -6,6 +6,14 @@ binary = input("Please could you enter your binary number: ")
 total = 0
 
 if binary[0] == "1":
+   total = total +128
+if binary[1] == "1":
+   total = total +64
+if binary[2] == "1":
+   total =  total +32
+if binary[3] == "1":
+   total = total +16
+if binary[0] == "1":
    total = total +8
 if binary[1] == "1":
    total = total +4
